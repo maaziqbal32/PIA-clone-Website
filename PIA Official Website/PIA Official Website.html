@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WWW.PIA.COM</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    .noticebox {
+      width: 100%;
+      height: 50px;
+      background-color: #f9f0bd;
+      border-bottom: 2px solid #f8eba0;
+    }
+    .noticetext {
+      padding: 15px;
+      margin-left: 8%;
+    }
+    .color {
+      color: rgb(155, 31, 31);
+    }
+    .color1 {
+      color: rgb(155, 31, 31);
+      text-decoration: none;
+    }
+    .navbardiv {
+      width: 100%;
+      height: 200px;
+    }
+    .pialogo {
+      display: flex;
+      width: 30%;
+      height: 100%;
+    }
+    .firstnavbardiv {
+      display: flex;
+      height: 50%;
+      width: 85%;
+
+      margin-left: 8%;
+    }
+    .mininavbar {
+      height: 100%;
+      width: 70%;
+    }
+    .ul {
+      display: flex;
+      margin-left: 15%;
+      font-size: 20px;
+      margin-top: 8px;
+      margin-left: 28%;
+    }
+    .li {
+      margin-left: 5%;
+      list-style: none;
+
+      padding-right: 10px;
+      color: gray;
+      font-family: sans-serif;
+      font-size: 16px;
+      border-color: gray;
+    }
+    .bordernone {
+      border: none;
+    }
+    .secondnavbar {
+      height: 50%;
+      width: 90%;
+
+      margin-left: 5%;
+    }
+    .lastnavbar ul {
+      display: flex;
+    }
+    .lilast {
+      list-style: none;
+      padding: 3%;
+      margin-left: 7%;
+      font-size: 21px;
+      font-family: sans-serif;
+      color: gray;
+    }
+    .colorgreen {
+      color: #69b342;
+      font-size: 15px;
+      font-family: "Exo 2", sans-serif;
+      font-weight: 600;
+    }
+    .secondsection {
+      width: 100%;
+      height: 750px;
+      border: 1px solid white;
+      background-image: url(./All\ Pics/baku.jpg);
+    }
+    .ticketform {
+      height: 45%;
+      width: 80%;
+
+      margin: auto;
+      margin-top: 24.5%;
+      background-color: #4ba8de63;
+    }
+
+    .subboxes {
+      height: 13px;
+      width: 100%;
+      border: 1px solid #4ba8de8e;
+      background-color: white;
+      color: rgb(80, 80, 80);
+      text-align: center;
+      padding: 1.5%;
+      font-size: large;
+      font-family: "Exo 2", sans-serif;
+    }
+    .ticketformnavbar {
+      display: flex;
+    }
+    .radiobuttons {
+      width: 100%;
+      height: 70px;
+      
+    }
+    .buttons {
+      width: 100%;
+      height: 40px;
+      
+      margin-top: 30px;
+      font-family: "Exo 2", sans-serif;
+    }
+    .radio {
+      margin-left: 30px;
+    }
+    .labelcolor {
+      color: white;
+    }
+    .routesslection
+    {
+      width: 100%;
+      height: 60px;
+      
+      display: flex;
+      
+    }
+    .selectclass
+    {
+      width: 300px;
+      height: 30px;
+      border: none;
+      margin-left: 30px;
+      color: gray;
+      padding: 2px;
+      
+    }
+    
+    .checkbox
+    {
+      margin-left: 40px;
+      width: 17px;
+      height:17px;
+      
+      margin-top: 10px;
+    }
+    .textcolor
+    {
+      color: white;
+        font-size: large;
+      font-family: "Exo 2", sans-serif;
+      margin-left:8px;
+
+    }
+    .Passengers
+    {
+      width: 100%;
+      height: 20px;
+      
+      display: flex;
+      
+    }
+    .design{
+      font-family: "Exo 2", sans-serif;
+      margin-left: 30px;
+      color: white;
+    }
+      .designCabin{
+      font-family: "Exo 2", sans-serif;
+      margin-left: 227px;
+      color: white; 
+    }
+    .flightbutton
+    {
+     
+     margin-left: 38px;
+     height: 40px;
+     width: 250px;
+     background-color:#69b342;
+     color: #fff;
+     border: 1px solid #ffffff5e;
+     
+    }
+    .bannerssection
+    {
+      width: 100%;
+      height: 165px;
+      
+      display: flex;
+    }
+    .bannerspics
+    {
+      width: 655px ;
+      height: auto;
+      
+      margin-left: 13px;
+      background-image: url(./All\ Pics/PIA-banner-3.jpg);
+      margin-top: 40px;
+      background-size: cover;
+    }
+    .bannerspics2
+    {
+      width: 655px ;
+      height: auto;
+      
+      margin-left: 13px;
+      background-image: url(./All\ Pics/Askari_cobrand1.jpg);
+      margin-top: 40px;
+      background-size: cover;
+    }
+    .bannerspics3
+    {
+      width: 655px ;
+      height: auto;
+      
+      margin-left: 13px;
+      background-image: url(./All\ Pics/PIA_BOOK_HOTEL.gif);
+      margin-top: 40px;
+      background-size: cover;
+    }
+      .bannerspics4
+    {
+      width: 655px ;
+      height: auto;
+      
+      margin-left: 13px;
+      background-image: url(./All\ Pics/PIA_Golootlo_Banner.gif);
+      margin-top: 40px;
+      background-size: cover;
+    }
+    .latest
+    {
+      width: 100%;
+      height: 80px;
+      
+    }
+    .heading1
+    {
+      color: #00557a;
+      font-size: 58px;
+      font-weight: 600;
+      font-family:"Exo 2", sans-serif;
+      margin-top: 30px;
+      margin-left: 100px;
+
+    }
+    .dealshere
+    {
+      width: 90%;
+      height: 820px;
+      
+      margin: auto;
+      display: flex;
+
+    }
+    .first2cities    
+    {
+      height: 380px;
+      width: 550px;
+    
+      margin-left: 35px;
+      margin-top: 20px;
+      position: relative;
+    }
+    .exclusivetaxes
+    {
+      height: 20px;
+      width: 350px;
+      
+      margin-left: 66%;
+      color: #707070;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 400
+      
+    
+
+    }
+    .cities
+    {
+      height: 100%;
+      width: 100%;
+      
+    }
+    .citiesname
+    {
+      position: absolute;
+      left: 5%;
+      
+      
+      margin-top: 10px;
+    }
+    .citiesname h1
+    {
+      font-size: 64px;
+      color: #FFF;
+      font-family: 'Exo 2', sans-serif;
+    }
+    .citiesname h5
+    {
+      font-size: 24px;
+      color: #FFF;
+      font-family: inherit;
+      font-weight: 500;
+      font-family: 'Exo 2', sans-serif;
+
+
+    }
+    .price
+    {
+       position: absolute;
+       padding: 10px 15px;
+       bottom: 30px;
+       color:#FFF;
+       background: linear-gradient(135deg, #12084d 1%, #3567b7 41%, #3a9ecf 99%, #207cca 99%);
+       
+    }
+    .price p
+    {
+      
+      font-size: 24px;
+      font-weight: 600;
+      font-family: 'Exo 2', sans-serif;
+    }
+    .alldeal
+    {
+      width: 87%;
+      height: 120px;
+      margin: auto;
+      margin-top: 20px;
+      background: linear-gradient(to bottom, #4ba8de63 1%, #1d3c7563 100%);
+      display: flex ;
+    }
+    .alldealform
+    {
+      margin-top: 50px;
+      margin-left: 25%;
+      
+    }
+    .selectclass2{
+      background-color: white;
+      height: 35px;
+      width: 370px;
+    }
+      .dealbutton
+    {
+      margin-left: 125%;
+      margin-top: -10px;
+    }
+    .dealdone
+    {
+      height: 35px;
+     width: 125px;
+     
+    }
+    .Services
+    {
+    margin-top: 50px;
+    }
+    .valueservices
+    {
+      width: 83%;
+      height: 380px;
+      
+      margin: auto;
+      margin-top: 40px;
+      display: flex;
+    }
+    .exploremore
+    {
+      width: 32%;
+      height: 280px ;
+      
+      margin-left: 8px;
+
+    }
+    .heading
+    {
+      color: #69b342;
+      font-weight: 600;
+      font-size: 30px;
+      margin-top: 20px;
+      font-family: 'Exo 2', sans-serif;
+      line-height: 1.1;
+    }
+    .ptag
+    {
+      color:#00557a ;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 550;
+      font-size: 18px; 
+    }
+    .mainsection
+    {
+      height: 350px;
+      width: 90%;
+      
+      margin: auto;
+      display: flex;
+      margin-top: 5%;
+    }
+    .mainsubdivs
+    {
+      width: 23%;
+      height: 400px;
+      
+      margin-left: 10px;
+
+
+    }
+    .subheading
+    {
+      margin-left: 50px;
+      font-weight: 500;
+    }
+    .ptag2
+    {
+      padding-left: 50px;
+      margin-top: 10px;
+      font-size: 18px;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 400;
+      color: #707070;
+    }
+    .smallimgs{
+      height: 40px;
+      width: 50%;
+      margin-left: 10px;
+    }
+    .logos
+    {
+      height: 30px;
+      width: 30px;
+    }
+    .logodiv
+    {
+      display: flex;
+      justify-content: space-around;
+      height: 50px;
+      width: 50% ;
+      margin-left: 60px;
+      margin-top: 15px;
+    }
+    .logset
+    {
+      margin-left: 20px;
+    }
+    .footermaindiv
+    {
+      width: 95%;
+      height: 170px;
+      
+      display: flex;
+      justify-content: space-between;
+      margin-left:40px ;
+      
+    }
+    .footerlogo
+    {
+      width: 38%;
+      height:150px ;
+      
+      margin-left: 70px;
+      margin-top: 20px;
+    }
+    .footerpics
+    {
+      width: 35%;
+      height:150px ;
+      
+      margin-top: 20px;
+      display: flex;
+      margin-left: 20px;
+    }
+     .footercolor
+     {
+      color: #707070;
+font-family: 'Exo 2', sans-serif;
+font-weight: 400;
+     }
+    .lastpics
+    {
+      height: 60px;
+      width: 20%;
+      margin-left: 20px;
+    }
+    .hr
+    {
+      color:white;
+    }
+  </style>
+
+  <body>
+    
+    <!-- notice box start here -->
+    <div class="noticebox">
+      <p class="noticetext">
+        <b class="color">Important:</b> Travel Updates Due To Covid-19
+        (CronoVirus) situation
+        <span class="color"><a class="color1" href="#">Read More</a></span>
+      </p>
+    </div>
+    <!-- end here notice box -->
+
+    <!-- Navbar div start here  -->
+    <div class="navbardiv">
+      <!-- first nabvar div -->
+      <div class="firstnavbardiv">
+        <div class="pialogo">
+          <img src="./All Pics/logo-new.png" alt="" srcset="" />
+        </div>
+        <div class="mininavbar">
+          <ul class="ul">
+            <li class="li">Press Release</li>
+            <li class="li">Contact Us</li>
+            <li class="li colorgreen">Member Login</li>
+            <li class="li bordernone">Corporate Website</li>
+          </ul>
+        </div>
+      </div>
+      <!-- first navbar end -->
+
+      <!-- second navbar start -->
+      <div class="secondnavbar">
+        <!-- navbar div end here -->
+        <div class="lastnavbar">
+          <ul>
+            <li class="lilast">Where We Fly</li>
+            <li class="lilast">Experience</li>
+            <li class="lilast">Awards +Plus</li>
+            <li class="lilast">Deals</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Div Start here -->
+    <div class="secondsection">
+      <!-- Ticket form -->
+      <div class="ticketform">
+        <div class="ticketformnavbar">
+          <!-- sub headings start from here -->
+          <div class="subboxes">Flight</div>
+          <div class="subboxes">Schedules</div>
+          <div class="subboxes">Web Check-In</div>
+          <div class="subboxes">Flight Status</div>
+          <div class="subboxes">My Booking</div>
+        </div>
+        <!--radio buttons div start here  -->
+        <div class="radiobuttons">
+          <div class="buttons">
+            <div>
+              <input class="radio" type="radio" name="maaz" />
+              <label class="labelcolor"> Return</label>
+              <input class="radio" type="radio" name="maaz"/>
+              <label class="labelcolor"> One Way</label>
+              <input class="radio" type="radio" name="maaz"/>
+              <label class="labelcolor"> Multicity</label>
+            </div>
+          </div>
+        </div>
+        <!-- route selection -->
+        <div class="routesslection">
+          <div class="selectboxes">
+            <select class="selectclass" name="" id="">
+              <option>From: Airport & City</option>
+              <option>Islamabad</option>
+              <option>Lahore</option>
+              <option>Karachi</option>
+              <option>Faislabad</option>
+              <option>Multan</option>
+              <option>Bahawalpur</option>
+              <option>Sialkot</option>
+              <option>Peshawar</option>
+            </select>
+          </div>
+          <div  class="selectboxes">
+            <div class="selectboxes margin">
+              <select class="selectclass" name="" id="">
+                <option>To: Airport & City</option>
+                <option>Islamabad</option>
+                <option>Lahore</option>
+                <option>Karachi</option>
+                <option>Faislabad</option>
+                <option>Multan</option>
+                <option>Bahawalpur</option>
+                <option>Sialkot</option>
+                <option>Peshawar</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Departure Dates -->
+        <div class="routesslection">
+          <div class="selectboxes">
+            <select class="selectclass" name="" id="">
+              <option>Select Departure Date</option>
+              
+            </select>
+          </div>
+          <div  class="selectboxes">
+            <div class="selectboxes margin">
+              <select class="selectclass" name="" id="">
+                <option>Select Return Date</option>
+              </select>
+            </div>
+          </div>
+          <div  class="selectboxes">
+            <div class="selectboxes margin1">
+              <input type="checkbox" class="checkbox" >
+                         <label class="textcolor">
+                          My Dates Are Flexible
+                         </label>
+          
+              </select>
+            </div>
+          </div>
+         
+
+        </div>
+        
+        <!-- Passengers and Detail -->
+        <div class=" Passengers">
+          <div>
+              <p class="design"> Passengers(s) </p>
+          </div>
+          <div>
+            <p class="designCabin"> Cabin: </p>
+          </div>
+
+        </div>
+
+        <!-- cabin information and passengers quantity -->
+         <!-- route selection -->
+         <div class="routesslection">
+          <div class="selectboxes">
+            <select class="selectclass" name="" id="">
+              <option>1 Adult, 0 Child, 0 Infant</option>
+              <option>2 Adult ,2 Child </option>
+              <option>4 Adult ,4 Child</option>
+             
+            
+            </select>
+          </div>
+          <div  class="selectboxes">
+            <div class="selectboxes margin">
+              <select class="selectclass" name="" id="">
+                <option>Economy</option>
+                <option>Business Class </option>
+                <option>Executive Class</option>
+              </select>
+            </div>
+          </div>
+          
+            <button class="flightbutton"> Find Flight </button>
+
+            </div>
+      </div>
+    </div>
+
+
+    <!-- Second section starts here  -->
+     <div class=" bannerssection">
+      <div class="bannerspics"></div>
+      <div class="bannerspics2"></div>
+
+     </div>
+
+     <!-- second banners collection start here -->
+     <div class=" bannerssection">
+      <div class="bannerspics3"></div>
+      <div class="bannerspics4"></div>
+
+     </div>
+
+
+     <!-- latest flight deals  section here -->
+
+     <div class="latest">
+           <h1 class="heading1">
+            Latest Flight Deal
+           </h1>
+     </div>
+
+
+     <!-- Deals start here  -->
+
+     <div class="dealshere">
+     <!-- first 2 cities -->
+      <div class="2cities">
+
+       <div class="first2cities">
+        <div class="citiesname">
+          <h1>
+            London
+          </h1>
+          <h5>Round Trip To Islamabad</h5>
+        </div>
+         <img class="cities" src="./All Pics/London1.jpg" alt="" srcset="">
+         <div class="price">
+          <p>Starting from GBP 340*</p>
+         </div>
+       </div>
+
+       <div class="first2cities">
+        <div class="citiesname">
+          <h1>
+            Birmingham
+          </h1>
+          <h5>Round Trip To Islamabad</h5>
+        </div>
+        <img  class="cities" src="./All Pics/Birmingham1.jpg" alt="" srcset="">
+        <div class="price">
+          <p>Starting from GBP 360*</p>
+         </div>
+      </div>
+    </div>
+    <!-- second 2 cities -->
+    <div class="second2cities">
+      <div class="first2cities">
+        <div class="citiesname">
+          <h1>
+            Saudia Arabia 
+          </h1>
+          <h5>From Pakistan</h5>
+        </div>
+        <img  class="cities" src="./All Pics/KSA1.jpg" alt="" srcset="">
+        <div class="price">
+          <p>More Details</p>
+         </div>
+      </div>
+      <div class="first2cities">
+        <div class="citiesname">
+          <h1>
+            Manchester
+          </h1>
+          <h5>Round Trip To Islamabad</h5>
+        </div>
+        <img class="cities" src="./All Pics/Manchester1.jpg" alt="" srcset="">
+        <div class="price">
+          <p>Starting from GBP 360*</p>
+         </div>
+     </div>
+    </div>
+     
+   
+    
+
+     </div>
+      <!-- Tax Notice -->
+      
+    <div class="exclusivetaxes">
+     <p> <sup>*</sup>Exclusive of taxes. Terms and conditions applied</p>
+    </div>
+
+    <!-- All deals section start here -->
+
+         <div class="latest">
+           <h1 class="heading1">
+            All Deals
+           </h1>
+         </div>
+     
+     <div class="alldeal">
+       
+      <div>
+        <div class="routesslection">
+          <div class="selectboxes alldealform ">
+            <select class="selectclass selectclass2" name="" id="">
+              <option>From - To...</option>
+              <option>Islamabad</option>
+              <option>Lahore</option>
+              </select>
+              </div>
+      
+      </div>
+      
+     </div>
+     <div>
+      <div class="routesslection">
+        <div class="selectboxes  alldealform">
+          <select class="selectclass selectclass2" name="" id="">
+            <option>Select Departure Date</option>
+            <option>Islamabad</option>
+            <option>Lahore</option>
+            </select>
+            </div>
+    
+    </div>
+    <div class="dealbutton">
+      <button class="flightbutton  dealdone"> Search Deals</button>
+    </div>
+    
+    
+    
+    </div>
+     </div>
+
+
+     <div class="latest Services ">
+      <h1 class="heading1">
+       Value Added Services
+      </h1>
+    </div>
+     
+<div class="valueservices">
+  <div class="exploremore"> <img class="cities" src="./All Pics/crew3.png" alt="" srcset="">
+     <h1 class="heading">Miles & Smiles</h1><br> <p class="ptag">Explore More</p></div>
+  <div class="exploremore"> <img class="cities" src="./All Pics/baggage.png" alt="" srcset="">
+    <h1 class="heading">Extra Baggage</h1><br><p class="ptag">Explore More</p></div>
+  <div class="exploremore"> <img class="cities" src="./All Pics/upgrade.png" alt="" srcset="">
+    <h1 class="heading">Seat Upgrade</h1><br><p class="ptag">Explore More</p></div>
+</div>
+
+<div class="mainsection">
+   <div class="mainsubdivs">
+   <h3 class="heading subheading">Facilities</h3>
+   <p class="ptag2">Air Passengers Rights </p>
+   <p class="ptag2">Conditions of Carriage </p>
+   <p class="ptag2">Booking Conditions </p>
+   <p class="ptag2">Traveler's Information</p>
+   <p class="ptag2">Overseas Pakistanis </p>
+   <p class="ptag2">Track Your Cargo(intl.) </p>
+  </div>
+   <div class="mainsubdivs">
+   <h3 class="heading subheading">Experience </h3>
+   <p class="ptag2">Cabins Seat</p>
+   <p class="ptag2"> Êxecutive Economy </p>
+   <p class="ptag2">Economy </p>
+   <p class="ptag2">Special Assistance</p>
+   <p class="ptag2">Special Assistance Form</p>
+   <p class="ptag2"> Baggage </p>
+   <p class="ptag2"> Baggage Guide</p>
+   <p class="ptag2"> Advance Purchase Excess Baggage </p>
+    </div>
+   <div class="mainsubdivs">
+   <h3 class="heading subheading">Quick Links</h3>
+   <p class="ptag2">Customer Cares </p>
+   <p class="ptag2">Contact Us  </p>
+   <p class="ptag2">Faqs </p>
+   <p class="ptag2">Site Map</p>
+   <p class="ptag2">Privacy Policy </p>
+   <p class="ptag2">Business With PIA </p>
+   <p class="ptag2">Travel Advisory Updates </p>
+  </div>
+   <div class="mainsubdivs">
+   <h3 class="heading subheading">Connect With Us</h3>
+   <div class="logodiv">
+    <p class=" logset"> <img class="logos" src="./All Pics/facebook.svg" alt="" srcset=""></p>
+    <p class="logset"> <img class="logos" src="./All Pics/twitter (1).svg" alt="" srcset=""></p>
+    <p class="logset"> <img class="logos" src="./All Pics/youtube.svg" alt="" srcset=""></p>
+    <p class="logset"> <img class="logos" src="./All Pics/instagram.svg" alt="" srcset=""></p>
+
+
+
+
+   </div>
+   
+   <p class="ptag2"><img class="smallimgs" src="./All Pics/appstore.png" alt="" srcset=""></p>
+   <p class="ptag2"><img class="smallimgs" src="./All Pics/googleplay.png" alt="" srcset=""></p>
+   <p class="ptag2"><img class="smallimgs" src="./All Pics/huawai.png" alt="" srcset=""></p>
+   
+  </div>
+</div>
+     <hr class="hr">
+  <!-- footer last part -->
+  <div class="footermaindiv">
+     <div class="footerlogo">
+          <img src="./All Pics/logo-footer.png" alt="" srcset="">
+          <p class="footercolor">© Copyright 2022, Pakistan International Airlines, All Right Reserved</p>
+     </div>
+      
+     <div class="footerpics">
+      <img  class="lastpics" src="./All Pics/prime-minster-logo.jpg" alt="" srcset="">
+      <img  class="lastpics"  src="./All Pics/news_big_1.jpg" alt="" srcset="">
+      <img  class="lastpics"  src="./All Pics/prime-minster-logo.jpg" alt="" srcset="">
+       
+     </div>
+  </div>
+     <!-- All Done Here  -->
+  </body>
+</html>
